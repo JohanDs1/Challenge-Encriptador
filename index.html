@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron&display=swap" rel="stylesheet">
+    
+    <title>Challenge Encriptador de texto</title>
+</head>
+<body>
+    <header>
+        <img class="logo" src="assets/img/img.png" alt="logo de Alura" >
+
+    </header>
+    <main class="container" >
+       <section >
+            <div class="cuadroIzq">
+                <textarea class="text-area" cols="35" rows="12" placeholder="Ingrese el texto"></textarea>
+                <button class="clearAll"><span>&#120;</span></button>
+                <h6 class="informacion">&#9888 Apenas letras minúsculas y sin acento.</h6>
+            </div>
+            <div class="botones">
+                <button class="encriptar">Encriptar</button>
+                <button class="desencriptar">Desencriptar</button>
+            </div>
+        
+       </section>
+            
+       <section>
+            <textarea class="caja" cols="15" rows="12" placeholder="Ningún mensaje fue encontrado" disabled></textarea>
+            <div>
+                <button class="copiar">Copiar</button>
+            </div>
+       </section>
+    </main>
+    <script src="assets/js/funciones.js"></script>
+</body>
+</html>
